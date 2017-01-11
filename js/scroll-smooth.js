@@ -26,3 +26,10 @@ $(document).ready(function(){
     }  // End if
   });
 });
+
+// collapse after click
+$(document).ready(function () {
+  $(".navbar-nav li a").click(function(event) {
+    $(".navbar-collapse").collapse('hide');
+  });
+});
