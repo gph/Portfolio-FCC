@@ -7,25 +7,59 @@ body {
 	overflow-x: hidden;
 }
 
-#intro{
-	padding-top:50px;
-	height:500px;
-	color: #000; 
-	background-color: #FFF;
-	height: 100%;
-}
-
-#project{
+#intro {
 	padding-top:50px;
 	height:500px;
 	color: #fff; 
-	background-color: #000;
+	background-color: #333333;
 	height: 100%;
 }
-#contact{
+
+#project {
 	padding-top:50px;
 	height:500px;
-	color: #000; 
-	background-color: #FFF;
+	color: #fff; 
+	background-color: #555555;
 	height: 100%;
+}
+#contact {
+	padding-top:50px;
+	height:500px;
+	color: #fff; 
+	background-color: #777777;
+	height: 100%;
+}
+
+
+/* NavBar */
+
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+
+/* nav text color */
+.navbar .navbar-brand,
+.navbar .navbar-nav > li > a {
+	color: #FFF;
+}
+
+/* hover */
+.navbar .navbar-brand:hover,
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus {
+	color: #FFF;
+}
+
+/* background nav active */
+.navbar .navbar-nav > .active > a,
+.navbar .navbar-nav > .active > a:hover, 
+.navbar .navbar-nav > .active > a:focus {
+	color: #FFF;
+	background: #000;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #FFF;
 }
